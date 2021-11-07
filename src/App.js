@@ -1,16 +1,7 @@
-import './App.css';
-import { BrowserRouter, Link } from 'react-router-dom';
+import './scss/index.scss';
 
 function App() {
-  return (
-    <BrowserRouter>
-      <div className="App">
-        <Link to="/home">
-          <span className="StartButton">Button</span>
-        </Link>
-      </div>
-    </BrowserRouter>
-  );
+  return <div className="wrapper">123</div>;
 }
 
 export default App;
